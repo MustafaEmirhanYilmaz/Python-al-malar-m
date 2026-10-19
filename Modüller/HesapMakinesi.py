@@ -6,6 +6,13 @@ işlem 3:çarpma
 işlem 4:bölme
 işlem 5:üs alma
 işlem 6:karekök alma
+işlem 7:Logaritma alma
+işlem 8:Sinüs alma
+işlem 9:Kosinüs alma
+işlem 10:Tanjant alma
+işlem 11:Kosekan alma
+işlem 12:Sekant alma
+işlem 13:Kotanjant alma
 Çıkmak İçin "q" ya basın.
 
 """
@@ -40,3 +47,24 @@ else:
     elif islem==6:
         sayi1=int(input("Bir sayı girin: "))
         print("Karekök:",math.sqrt(sayi1))
+    elif islem==7:
+        sayi1=int(input("Bir sayı girin: "))
+        print("Logaritma:",math.log(sayi1))
+    elif islem==8:
+        sayi1=int(input("Bir açı girin: "))
+        print("Sinüs:",math.sin(sayi1))
+    elif islem==9:
+        sayi1=int(input("Bir açı girin: "))
+        print("Kosinüs:",math.cos(sayi1))
+    elif islem==10:
+        sayi1=int(input("Bir açı girin: "))
+        print("Tanjant:",math.tan(sayi1))
+    elif islem==11:
+        sayi1=int(input("Bir açı girin: "))
+        print("Kosekan:",1/math.sin(sayi1))
+    elif islem==12:
+        sayi1=int(input("Bir açı girin: "))
+        print("Sekant:",1/math.cos(sayi1))
+    elif islem==13:
+        sayi1=int(input("Bir açı girin: "))
+        print("Kotanjant:",1/math.tan(sayi1))
